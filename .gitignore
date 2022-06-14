@@ -2,3 +2,4 @@ node_modules
 dist
 captain-definition
 deploy.tar
+.idea
