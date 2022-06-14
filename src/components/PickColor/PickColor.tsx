@@ -52,7 +52,7 @@ const PickColor = () => {
         </div>
 
         <div>
-          Copy and paste inside tailwind config:
+          <p>1: Copy and paste inside tailwind config:</p>
           <pre>
             {JSON.stringify(
               {
@@ -64,6 +64,7 @@ const PickColor = () => {
               2,
             )}
           </pre>
+          2:
         </div>
       </div>
     </>
