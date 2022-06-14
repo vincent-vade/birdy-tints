@@ -1,0 +1,145 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: -apple-system, sans-serif;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  color: #2D2A2A;
+}
+
+pre {
+  background: #eeeeee;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+nav a {
+  color: darkgray;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.px-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.brd-wrapper {
+  display: flex;
+  height: 50vh;
+}
+
+.color-name-field {
+  width: 100%;
+  height: 46px;
+  box-sizing: border-box;
+  border: 0;
+  background: #eee;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+
+.pick-color {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pick-color::-webkit-color-swatch {
+  border-radius: 6px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0/0.25);
+  border: 0;
+}
+
+.pick-color__config {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brd-tint {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+
+.brd-tint__content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: white;
+  transition: transform 300ms ease;
+}
+
+.brd-tint__text {
+  transition: transform 300ms ease;
+  background: white;
+  padding-top: 10px;
+}
+
+.empty-tints {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.footer__content {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
