@@ -3,3 +3,5 @@ dist
 captain-definition
 deploy.tar
 .idea
+.DS_Store
+src/.DS_Store

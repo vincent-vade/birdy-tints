@@ -64,7 +64,6 @@ const PickColor = () => {
               2,
             )}
           </pre>
-          2:
         </div>
       </div>
     </>
