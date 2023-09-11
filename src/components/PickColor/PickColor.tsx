@@ -30,13 +30,25 @@ const PickColor = () => {
       <div class="pick-color__config">
         <div class="px-4">
           <div class="mb-20">
-            <label for="color">Pick you're color:</label>
-            <input
-              id="color"
-              class="pick-color"
-              type="color"
-              onChange={handlePickColor}
-            />
+            <div>
+              <p>Already a color ?</p>
+              <input
+                type="text"
+                id="picked-color"
+                class="color-name-field"
+                placeholder="Paste color a eg: #fffff"
+                onChange={handlePickColor}
+              />
+            </div>
+            <div>
+              <p>Or pick you're color:</p>
+              <input
+                id="color"
+                class="pick-color"
+                type="color"
+                onChange={handlePickColor}
+              />
+            </div>
           </div>
           <div class="mb-20">
             <label for="color-name">Set the color name of this tint:</label>
